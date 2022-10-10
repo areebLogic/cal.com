@@ -1,0 +1,17 @@
+{
+  "/*": "Don't modify slug - If required, do it using cli edit command",
+  "name": "tax",
+  "slug": "tax",
+  "type": "tax_other",
+  "imageSrc": "/api/app-store/tax/icon.svg",
+  "logo": "/api/app-store/tax/icon.svg",
+  "url": "https://cal.com/apps/tax",
+  "variant": "other",
+  "categories": [
+    "other"
+  ],
+  "publisher": "a",
+  "email": "a@a.com",
+  "description": "cal tax",
+  "__createdUsingCli": true
+}
