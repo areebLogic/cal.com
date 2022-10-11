@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 import TaxCalculator from "@calcom/app-store/tax/components/TaxCalculator";
-import TaxForm from "@calcom/app-store/tax/components/TaxCalculator";
 import { useLocale } from "@calcom/lib/hooks/useLocale";
 import { trpc } from "@calcom/trpc/react";
 import { Icon } from "@calcom/ui/Icon";
@@ -14,7 +13,7 @@ function Tax() {
   return (
     <Shell heading={t("Tax")} subtitle={t("calculate_tax")}>
       <div>
-        <TaxForm />
+        <TaxCalculator />
       </div>
     </Shell>
   );
