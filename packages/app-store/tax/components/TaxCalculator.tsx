@@ -18,8 +18,7 @@ interface Props {
 
 export default function TaxCalculator() {
   return (
-    <>
-      <TaxForm />
-    </>
+    
+      <TaxForm  />
   );
 }
